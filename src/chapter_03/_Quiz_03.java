@@ -11,6 +11,8 @@ public class _Quiz_03 {
 
         String num = "940126-1234567";
         System.out.println(num.substring(0));
+        System.out.println(num.substring(0,8)); //0위치부터 8 위치까지
+        System.out.println(num.substring(0, num.indexOf("-")+2)); // = 위치 에서 2칸 뒤 앞까지 끊겠다.
 
     }
 }
